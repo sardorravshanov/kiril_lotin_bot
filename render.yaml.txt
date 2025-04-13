@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: kiril-lotin-bot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python Kirill_lotin_bot.py"
-    repo: https://github.com/YOUR_USERNAME/kiril_lotin_bot
-    branch: main
-    autoDeploy: true
